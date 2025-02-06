@@ -1,0 +1,48 @@
+.container-orders{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    max-height: 1000px;
+    overflow-y: auto;
+    overflow-x: auto;
+    background: #fffef9;
+    width: 800px;
+    border: solid 2px;
+    border-radius: 5px;
+}
+.table-caracters{
+    width: 100%;
+    padding: 20px;
+    
+    
+}
+.table-caracters tr:hover{
+    background-color: #a47864;
+    color: whitesmoke;
+}
+.container-button-orders{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.container-button-orders button{
+    background-color: #fcfcfc;  
+}
+.container-button-orders button:hover{
+    background-color: #545454;
+    color: #fcfcfc;
+    cursor: pointer
+}
+th, td, input{
+    border: solid 2px #e5d8d3;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 23px;
+    padding: 5px;
+}
+
+button{
+    
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 25px;
+}

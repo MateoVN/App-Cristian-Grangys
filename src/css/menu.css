@@ -1,0 +1,88 @@
+.container-menu{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.menu-nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+    width: 400px;
+    padding-left: 100px;
+    padding-right: 100px;
+    border: solid 2px grey;
+    border-radius: 25px;
+    background: #f2eef2;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-nav h1{
+    font-size: 40px;
+    text-decoration: underline;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.menu-nav a{
+    font-size: 20px;
+    font-weight: 600px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+    color: #fcfcfc;
+}
+
+.menu-nav li{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+    background: #a47864;
+    border: solid 2px #a47864;
+    height: 50px;
+    width: 180px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+.menu-nav li:hover{
+    background: #fcfcfc;
+    border: solid 2px #a47864;
+}
+.menu-nav li:hover a{
+    color:#a47864
+}
+#handleOnClickUnderWay{
+    background-color: #800020;
+    color: #fcfcfc;
+    font-size: 20px;
+    font-weight: 600px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+#handleOnClickUnderWay:hover{
+    background-color: #fcfcfc;
+    color: #800020;
+    border-color: #800020;
+    cursor: pointer;
+}
+#handleOnClickEndDay{
+    background-color: #545454 ;
+    color: #fcfcfc;
+    font-size: 20px;
+    font-weight: 600px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#handleOnClickEndDay:hover{
+    background-color: #fcfcfc;
+    color: #545454;
+    border-color: #545454;
+    cursor: pointer;
+}

@@ -1,0 +1,37 @@
+.container-adminstock{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    max-height: 1000px;
+    overflow-y: auto;
+    overflow-x: auto;
+    background: #fffef9;
+    width: 1000px;
+    border: solid 2px;
+    border-radius: 5px;
+}
+.container-adminstock table {
+ background: white;
+}
+.container-adminstock td, th{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    padding: 10px;
+}
+.container-adminstock tr:hover{
+    background-color: #a47864;
+    color: whitesmoke;
+}
+.container-adminstock button{
+    background-color: #fcfcfc;
+}
+.container-adminstock button:hover{
+    background-color: #545454;
+    color: #fcfcfc;
+    cursor: pointer
+}
+.container-button-accept{
+    margin-top: 50px;
+    
+}
